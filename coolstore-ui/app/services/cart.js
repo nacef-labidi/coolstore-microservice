@@ -34,11 +34,11 @@ angular.module("app")
 		if (tmpId && authId) {
 			// transfer cart
 			cartId = authId;
-			this.setCart(tmpId).then(function(result) {
-				localStorage.removeItem('cartId');
-			}, function(err) {
-				console.log("could not transfer cart " + tmpId + " to cart " +  authId + ": " + err);
-			});
+//			this.setCart(tmpId).then(function(result) {
+//				localStorage.removeItem('cartId');
+//			}, function(err) {
+//				console.log("could not transfer cart " + tmpId + " to cart " +  authId + ": " + err);
+//			});
 			return;
 		}
 
