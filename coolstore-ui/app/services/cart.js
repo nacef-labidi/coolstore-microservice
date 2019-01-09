@@ -32,14 +32,17 @@ angular.module("app")
 		var authId = $auth.userInfo ? $auth.userInfo.sub : null;
 
 		if (tmpId && authId) {
-			// transfer cart
 			cartId = authId;
-			this.setCart(tmpId).then(function(result) {
-				localStorage.removeItem('cartId');
-			}, function(err) {
-				console.log("could not transfer cart " + tmpId + " to cart " +  authId + ": " + err);
-			});
-			return;
+			localStorage.removeItem('cartId');
+			// TODO - transfer cart by merging tmpId and authId cart
+			// TODO - Currently, cart before login (tmpId) is lost after login
+			
+// 			this.setCart(tmpId).then(function(result) {
+// 				localStorage.removeItem('cartId');
+// 			}, function(err) {
+// 				console.log("could not transfer cart " + tmpId + " to cart " +  authId + ": " + err);
+// 			});
+// 			return;
 		}
 
 		if (tmpId && !authId) {
