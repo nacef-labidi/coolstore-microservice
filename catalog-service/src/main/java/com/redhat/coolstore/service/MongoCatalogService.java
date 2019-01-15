@@ -109,14 +109,14 @@ public class MongoCatalogService implements CatalogService {
 
     private static List<Product> DEFAULT_PRODUCT_LIST = new ArrayList<>();
     static {
-        DEFAULT_PRODUCT_LIST.add(new Product("329299", "Red Fedora", "Official Red Hat Fedora", 34.99));
-        DEFAULT_PRODUCT_LIST.add(new Product("329199", "Forge Laptop Sticker", "JBoss Community Forge Project Sticker", 8.50));
-        DEFAULT_PRODUCT_LIST.add(new Product("165613", "Solid Performance Polo", "Moisture-wicking, antimicrobial 100% polyester design wicks for life of garment. No-curl, rib-knit collar; special collar band maintains crisp fold; three-button placket with dyed-to-match buttons; hemmed sleeves; even bottom with side vents; Import. Embroidery. Red Pepper.", 17.80));
-        DEFAULT_PRODUCT_LIST.add(new Product("165614", "Ogio Caliber Polo", "Moisture-wicking 100% polyester. Rib-knit collar and cuffs; Ogio jacquard tape inside neck; bar-tacked three-button placket with Ogio dyed-to-match buttons; side vents; tagless; Ogio badge on left sleeve. Import. Embroidery. Black.", 28.75));
-        DEFAULT_PRODUCT_LIST.add(new Product("165954", "16 oz. Vortex Tumbler", "Double-wall insulated, BPA-free, acrylic cup. Push-on lid with thumb-slide closure; for hot and cold beverages. Holds 16 oz. Hand wash only. Imprint. Clear.", 6.00));
-        DEFAULT_PRODUCT_LIST.add(new Product("444434", "Pebble Smart Watch", "Smart glasses and smart watches are perhaps two of the most exciting developments in recent years. ", 24.00));
-        DEFAULT_PRODUCT_LIST.add(new Product("444435", "Oculus Rift", "The world of gaming has also undergone some very unique and compelling tech advances in recent years. Virtual reality, the concept of complete immersion into a digital universe through a special headset, has been the white whale of gaming and digital technology ever since Geekstakes Oculus Rift GiveawayNintendo marketed its Virtual Boy gaming system in 1995.Lytro", 106.00));
-        DEFAULT_PRODUCT_LIST.add(new Product("444436", "Lytro Camera", "Consumers who want to up their photography game are looking at newfangled cameras like the Lytro Field camera, designed to take photos with infinite focus, so you can decide later exactly where you want the focus of each image to be. ", 44.30));
+        DEFAULT_PRODUCT_LIST.add(new Product("329299", "Perceuse a percussion Redstone", "Perceuse a percussion Redstone", 129.00));
+        DEFAULT_PRODUCT_LIST.add(new Product("329199", "Barbecue au charbon de bois NATERIAL", "Barbecue au charbon de bois NATERIAL", 79.00));
+        DEFAULT_PRODUCT_LIST.add(new Product("165613", "Store vénitien aluminium", "Le système de fixation par clips du store vénitien, permet une pose rapide sans colle ni perçage (sur fenêtre PVC). Il permet d'obtenir une vision sur l'extérieur, tout en préservant votre intimité. L'orientation des lamelles permet de régler de façon naturelle la luminosité de votre pièce et de créer des ambiances différentes tout au long de la journée. Cette gamme se décline en plusieurs coloris et dimensions.", 17.80));
+        DEFAULT_PRODUCT_LIST.add(new Product("165614", "Suspension e27 design Tarbes", "Suspension e27 design Tarbes", 19.90));
+        DEFAULT_PRODUCT_LIST.add(new Product("165954", "Set de 30 accessoires multifonction", "Set de 30 accessoires multifonction", 24.95));
+        DEFAULT_PRODUCT_LIST.add(new Product("444434", "Tondeuse thermique ALPINA BL510SH", "Tondeuse moteur Honda GCV140, 160cc largeur de coupe 51cm, centralisé grandes roues arrieres, bac 60 litres + mulching.", 199.00));
+        DEFAULT_PRODUCT_LIST.add(new Product("444435", "Bloc-porte vernis chêne Ceruse ARTENS", "Bloc-porte vernis chêne Ceruse ARTENS", 118.44));
+        DEFAULT_PRODUCT_LIST.add(new Product("444436", "Borne extérieure Melbourne LED", "Borne extérieure Melbourne LED", 35.69));
 
     }
 
