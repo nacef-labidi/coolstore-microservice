@@ -42,11 +42,3 @@ ul.rating {
 	margin: 0 auto;
 	width: 80%;
 }
-
-.navbar-pf {
-   background: #970000;
-    border: 0;
-    border-radius: 0;
-    border-top: 3px solid #39a5dc;
-    min-height: 0;
-}
